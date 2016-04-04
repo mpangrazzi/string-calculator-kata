@@ -10,7 +10,7 @@ A [Node.js](https://nodejs.org)-based implementation of `String Calculator Kata`
 
 **Easiest way**: download the install package from the [website](https://nodejs.org/en/).
 
-Or, you could install a version mananger like [n](https://github.com/tj/n) or [nvm](https://github.com/creationix/nvm), then install the last stable version (version `5.10` at the time of writing).
+Or, you could install a Node.js version mananger like [n](https://github.com/tj/n) or [nvm](https://github.com/creationix/nvm), then install the last stable version (version `5.10` at the time of writing).
 
 
 ## Build & Run
@@ -34,7 +34,7 @@ npm test
 
 ### Run examples
 
-To run examples, simply run `node step-{N}.js` files from `/examples` folder.
+To run examples, simply run `node examples/step-{N}.js`.
 
 
 ### Debug
