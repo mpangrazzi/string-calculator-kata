@@ -3,6 +3,8 @@
 
 A [Node.js](https://nodejs.org)-based implementation of `String Calculator Kata`.
 
+[![Build Status](https://travis-ci.org/mpangrazzi/string-calculator-kata.svg?branch=master)](https://travis-ci.org/mpangrazzi/string-calculator-kata)
+
 
 ## Requirements 
 
