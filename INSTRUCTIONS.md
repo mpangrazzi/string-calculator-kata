@@ -42,5 +42,5 @@ To run examples, simply run `node examples/step-{N}.js`.
 This project uses the [debug](https://github.com/visionmedia/debug) module. If you want to see the debug messages, simply run an example script in this way:
 
 ```bash
-DEBUG=add* node examples/step-4
+DEBUG=sc* node examples/step-4
 ```
