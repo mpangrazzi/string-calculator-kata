@@ -2,7 +2,7 @@
 const MAX_INPUT = 2;
 const SEPARATOR = /,/;
 
-module.exports = function sc (input) {
+module.exports = function add (input) {
 
   // Return 0 for an empty string
 

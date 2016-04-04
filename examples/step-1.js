@@ -1,14 +1,14 @@
 
-var sc = require('..');
+var add = require('..');
 
-console.log('sc(\'\')');
-console.log(sc());
+console.log('add(\'\')');
+console.log(add());
 
-console.log('\nsc(\'1\')');
-console.log(sc('1'));
+console.log('\nadd(\'1\')');
+console.log(add('1'));
 
-console.log('\nsc(\'1,2\')');
-console.log(sc('1,2'));
+console.log('\nadd(\'1,2\')');
+console.log(add('1,2'));
 
-console.log('\nsc(\'1,2,3\')');
-console.log(sc('1,2,3'));
+console.log('\nadd(\'1,2,3\')');
+console.log(add('1,2,3'));
