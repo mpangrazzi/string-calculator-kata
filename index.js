@@ -25,6 +25,12 @@ module.exports = function add (input) {
     if (n < 0) throw new Error('negatives not allowed');
   });
 
+  // Ignore numbers > 1000
+
+  numbers = numbers.filter(n => {
+    return n <= 1000;
+  });
+
   // Sum (reduce)
 
   return numbers.reduce((p, n) => {
