@@ -35,3 +35,12 @@ npm test
 ### Run examples
 
 To run examples, simply run `node step-{N}.js` files from `/examples` folder.
+
+
+### Debug
+
+This project uses the [debug](https://github.com/visionmedia/debug) module. If you want to see the debug messages, simply run an example script in this way:
+
+```bash
+DEBUG=add* node examples/step-4
+```
