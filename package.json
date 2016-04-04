@@ -1,0 +1,25 @@
+{
+  "name": "string-calculator-kata",
+  "version": "1.0.0",
+  "description": "A TDD Kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpeppers/string-calculator-kata.git"
+  },
+  "author": "Michele Pangrazzi <xmikex83@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/xpeppers/string-calculator-kata/issues"
+  },
+  "homepage": "https://github.com/xpeppers/string-calculator-kata#readme",
+  "devDependencies": {
+    "ava": "^0.13.0"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  }
+}
