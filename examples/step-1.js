@@ -1,5 +1,10 @@
 
+/**
+ * Module dependencies
+ */
+
 var add = require('..');
+
 
 console.log('add(\'\')');
 console.log(add());
