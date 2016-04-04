@@ -22,7 +22,7 @@ Once you have Node.js up and running, you have to:
 1. Clone this repository
 2. Run `npm install` from the CLI
 
-Note that the only dependency here is [AVA](https://github.com/sindresorhus/ava#enhanced-assertion-messages), a *very* nice test runner.
+Note that the only dependency here is [AVA](https://github.com/sindresorhus/ava), a *very* nice test runner.
 
 ### Run tests
 
@@ -32,9 +32,6 @@ To run tests, simply run:
 npm test
 ```
 
-from CLI.
+### Run examples
 
-
-## Documentation
-
-TODO
+To run examples, simply run `node step-{N}.js` files from `/examples` folder.
