@@ -1,5 +1,4 @@
 
-const MAX_INPUT = 2;
 const SEPARATOR = /,/;
 
 module.exports = function add (input) {
@@ -17,10 +16,6 @@ module.exports = function add (input) {
     .map(n => {
       return parseInt(n);
     });
-
-  if (numbers.length > MAX_INPUT) {
-    throw new Error(`Maximum input values exceeded (${MAX_INPUT})`);
-  }
 
   // Sum (reduce)
 
