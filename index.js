@@ -1,5 +1,5 @@
 
-const SEPARATOR = /,/;
+const SEPARATOR = /,|\n/;
 
 module.exports = function add (input) {
 
