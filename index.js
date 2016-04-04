@@ -19,6 +19,12 @@ module.exports = function add (input) {
 
   var numbers = parse(input);
 
+  // Check for negative numbers
+
+  numbers.forEach(n => {
+    if (n < 0) throw new Error('negatives not allowed');
+  });
+
   // Sum (reduce)
 
   return numbers.reduce((p, n) => {
